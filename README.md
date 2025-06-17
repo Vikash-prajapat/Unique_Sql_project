@@ -198,7 +198,7 @@ query:-
 select distinct language from `unique1-462503.example1.StackOverflow`
 where experience_level>"Junior";
 
-5. Salary comparison: Python vs Java developers.
+5. Salary comparison: Python vs Java developers
 query:-
 select language,sum(salary_usd) as salary from `unique1-462503.example1.StackOverflow`
 where language in("Python","Java") group by language;
